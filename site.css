@@ -1,0 +1,102 @@
+/* ATOMS */
+body {
+    font-family: 'Rockwell', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 3em;
+    font-style: italic;
+    font-weight: bold;
+    color: #F1E9E9;
+    margin: 0;
+    padding-left: 3%;
+}
+
+h2 {
+    font-size: 2em;
+    color: #982598;
+    margin: 0;
+}
+
+p {
+    color: #15173D;
+    font-size: 1.35em;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+a {
+    color: #F1E9E9;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* MOLECULES */
+.card {
+    width: 300px;
+    text-align: center;
+}
+
+.card img {
+    height: 300px;
+    border-radius: 10px;
+}
+
+.circle-img {
+    height: 400px;
+    width: 400px;
+    background-color: gray;  /* Placeholder */
+    border-radius: 50%;
+    margin-left: 7.5%;
+    overflow: hidden;
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    text-align: center;
+}
+
+.text-block {
+    max-width: 500px;
+}
+
+.text-block p {
+    text-indent: 2em;
+}
+
+.nav-link {
+    font-size: 1.5em;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: white;
+}
+
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: white;
+}
+
+/* ORGANISMS */
+header {
+    background: #15173D;
+    padding: 1.5em 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
