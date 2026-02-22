@@ -41,7 +41,11 @@ biosite/
 ├── hobbies.html                # Hobbies Page
 ├── about.html                  # About Page
 │
+<<<<<<< HEAD
 └── README.md      
+=======
+└── README.md              
+>>>>>>> d23e81f3027b780b96ee4007210ae3e35e515391
 
 
 ---
