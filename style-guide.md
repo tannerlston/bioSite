@@ -21,35 +21,6 @@ This bioSite is built using **Atomic Design principles** with Christine's custom
 
 ---
 
-## File Structure
-
-biosite/
-│
-├── site.css                    # All style-levels: Atomic, Molecule, Organism, and Template
-│
-├── images/
-│   ├── christine_portrait.jpg  # (.circle-img)
-│   ├── hobby1.jpg              # Dragon Boat Racing
-│   ├── hobby2.jpg              # Local Refugee Support
-│   ├── hobby3.jpg              # Cats
-│   ├── about1.jpg              # Early Life
-│   ├── about2.jpg              # Career in Accounting (Early to Late Adulthood)
-│   ├── about3.jpg              # Daughter & Volunteering (Retirement)
-│   └── PeachAshGray.mp4        # Underlies "content-overlay" (.back-video)
-│
-├── index.html                  # Home Page
-├── hobbies.html                # Hobbies Page
-├── about.html                  # About Page
-│
-<<<<<<< HEAD
-└── README.md      
-=======
-└── README.md              
->>>>>>> d23e81f3027b780b96ee4007210ae3e35e515391
-
-
----
-
 **Built with**: HTML5, CSS3, Atomic Design  
 **Font**: Rockwell, Georgia  
 **Colors**: Navy, Purple, Blush

@@ -40,6 +40,12 @@ a {
 }
 
 /* MOLECULES */
+.frosted {
+    background: rgba(241, 233, 233, 0.849); /* Semi-transparent background for readability */
+    border-radius: 10px;
+    padding: 1.5em;
+}
+
 .card {
     width: 300px;
     text-align: center;
